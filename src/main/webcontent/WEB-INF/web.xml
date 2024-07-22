@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee " version="6.0">
+  <servlet>
+    <description></description>
+    <display-name>Userservlet</display-name>
+    <servlet-name>Userservlet</servlet-name>
+    <servlet-class>net.javaguides.usermanagement.web.Userservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Userservlet</servlet-name>
+    <url-pattern>/Userservlet</url-pattern>
+  </servlet-mapping>
+  <display-name>jsp-servelet-jdbc-crud-example</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
